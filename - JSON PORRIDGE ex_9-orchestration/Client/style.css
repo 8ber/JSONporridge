@@ -1,0 +1,55 @@
+:root {
+    --main-radius:5px;
+    --main-padding:5px;
+    font-family: Tahoma, Verdana, sans-serif;
+    font-size: small;
+    text-align: left;
+}
+
+body {
+    text-align: center;
+    background-color: #000000;
+    font-family: Arial, Helvetica, sans-serif;
+    color: #ffffff;
+}
+
+input { 
+    border-radius: var(--main-radius);
+    background: #141414;
+    color: white;
+ }
+
+label {
+    width: 5em;
+    display: inline-block;
+}
+
+#addUserButtonTxt, #closeButtonTxt, #submitButtonTxt {
+    float: left;
+    border: 1px solid #ddd;
+    display: block;
+}
+
+#addUserBox
+{
+    text-align: left;
+    float: left;
+    
+}
+#container {
+    margin-left: auto;
+    margin-right: auto;
+    border-collapse: collapse;
+    width: 50%;
+  }
+
+  .bolderFont {
+    font-weight: 750;
+  }
+
+  th, td {
+    font-weight: 500;
+    padding: 8px;
+    border-bottom: 1px solid #ddd;
+  }
+  tr:hover, #addUserButtonTxt:hover, #closeButtonTxt:hover, #submitButtonTxt:hover {background-color: rgb(41, 41, 41);}
